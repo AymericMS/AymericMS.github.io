@@ -17,37 +17,51 @@
 <meta property="og:site_name" content="a. mainvis" />
 <meta name="google-site-verification" content="id_0dVNg9NhTW_6xkei-nXYohT87h4Y3jSYprydYLys" />
 <script type="application/ld+json">
-{"url":"http://localhost:4000/","name":"a. mainvis","author":{"@type":"Person","name":"Aymeric Mainvis"},"description":"The research website of Aymeric Mainvis.","@type":"WebSite","headline":"a. mainvis","@context":"https://schema.org"}</script>
+{"headline":"a. mainvis","author":{"@type":"Person","name":"Aymeric Mainvis"},"description":"The research website of Aymeric Mainvis.","@type":"WebSite","url":"http://localhost:4000/","name":"a. mainvis","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="a. mainvis" /><!----><script data-goatcounter="https://professionalblog.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script><!-- Included since I plan to use javascript for link modification -->    
   <script src="/assets/jquery-3.4.1.min.js"> </script></head>
 <body><header class="site-header" role="banner">
-    <h1> a. mainvis </h1><!-- highlight home in nav when viewing homepage category posts --><!-- highlight blog in nav when viewing blog category posts --><a class="nav current" href="/index.html">home</a><!-- highlight home in nav when viewing homepage category posts --><!-- highlight blog in nav when viewing blog category posts -->|<a class="nav" href="/publications.html">publications</a><!-- highlight home in nav when viewing homepage category posts --><!-- highlight blog in nav when viewing blog category posts -->|<a class="nav" href="/talks.html">talks</a><!-- highlight home in nav when viewing homepage category posts --><!-- highlight blog in nav when viewing blog category posts -->|<a class="nav" href="/teaching.html">teaching</a><!-- highlight home in nav when viewing homepage category posts --><!-- highlight blog in nav when viewing blog category posts -->|<a class="nav" href="/vita.html">vita</a></header>
+    <h1> a. mainvis </h1><!-- highlight home in nav when viewing homepage category posts --><!-- highlight blog in nav when viewing blog category posts --><a class="nav current" href="/index.html">home</a><!-- highlight home in nav when viewing homepage category posts --><!-- highlight blog in nav when viewing blog category posts -->|<a class="nav" href="/blog.html">blog</a><!-- highlight home in nav when viewing homepage category posts --><!-- highlight blog in nav when viewing blog category posts -->|<a class="nav" href="/publications.html">publications</a><!-- highlight home in nav when viewing homepage category posts --><!-- highlight blog in nav when viewing blog category posts -->|<a class="nav" href="/talks.html">talks</a><!-- highlight home in nav when viewing homepage category posts --><!-- highlight blog in nav when viewing blog category posts -->|<a class="nav" href="/teaching.html">teaching</a><!-- highlight home in nav when viewing homepage category posts --><!-- highlight blog in nav when viewing blog category posts -->|<a class="nav" href="/vita.html">vita</a></header>
 <main>
         <div class="content fade-in">
              <!--Find the first post in the homepage category, and link to the next and prev--><article itemscope itemtype="http://schema.org/BlogPosting">   
     <header hidden>
-        <h3>Monitoring Oil spill with SAR</h3>
+        <h3>Detection and Characterization of Ionospheric Activity at High Latitude from SAR Measurements</h3>
         <p class="date">
             <time class="dt-published" datetime="" itemprop="datePublished">
-                <i>April 13, 2020 </i>
+                <i>January 31, 2021 </i>
             </time>
         </p>
     </header>
     <div itemprop="articleBody">
-        <p class="centered"><img src="./images/sethiX_nofo copie.png" alt="SETHI" /></p>
+        <p class="centered"><img src="./images/quiver_faraday_map.png" width="500" /></p>
 
-<p class="centered"><span style="color:grey"> <em>SAR image collected by SETHI from ONERA.
-<a href="https://hal.archives-ouvertes.fr/hal-02409705/file/DOTA19187.1571908389_preprint.pdf">ref</a></em> </span></p>
+<p class="centered"><span style="color:grey"> <em>Faraday Rotation map superimposed on total power image, VV polarization. The white line indicates
+the projected magnetic field. SAR image collected by
+<a href="https://www.eorc.jaxa.jp/ALOS/en/about/palsar.htm">ALOS PALSAR from JAXA</a></em> </span></p>
 
-<p>Space and airborne remote sensing systems are the main means of maritime surveillance. They are operated by
-governments or companies and are responsible for detecting oil slicks at sea. This mission remains crucial in order to
-best manage environmental accidents. Currently, Synthetic Aperture Radar (SAR) is the main way to carry out this
-mission as it provides a 24/7 service and is unaffected by weather conditions. In such a context, polarimetric data and
-multi-frequency acquisitions are crucial as they allow rapid and reliable detection and characterization of the oil
-layer.</p>
+<p>Low-frequency space-based SAR systems can be used for global surveillance. This mission is dedicated to the precise
+observation of local changes due to global climate change. In particular, they can measure the evolution of terrestrial
+biomass in equatorial regions, and the decrease of ice fields in high latitude regions. However, it is well known that,
+at these lower frequencies (L-band or below), the radar signal is affected by propagation through the ionospheric layer.
+The ionospheric background induces refraction, polarization rotation, group delay and phase advance mainly due to the
+large-scale variations of the electron content within the ionosphere. Also, the small-scale ionospheric structures
+generated by plasma instability processes affect the radar signal by adding a scattering phenomenon during the
+measurement, this is the ionospheric scintillation. These signal fluctuations reduce the quality of a SAR image, which
+may even prevent InSAR processing and change detection. Essentially, these disturbances occur in two regions, namely the
+polar cap and equatorial zones. More precisely, in the polar cap, ionospheric activity is more intense in the auroral
+oval. This location is an energy zone with a high electron density. For equatorial regions, the radar signal is
+frequently disturbed during the post-sunset periods because of electric fields resulting from the interaction of charged
+particles from the Sun, the geomagnetic field and the particle winds developed within the ionosphere.</p>
 
+<p>Recently, I worked on a methodology to detect and characterize the ionospheric activity thanks to spaceborne synthetic
+aperture radar measurements. This strategy is based on the Faraday rotation estimation which leads to the Total Electron
+Content (TEC) quantification, and the ionospheric phase advance assessment.</p>
+
+<p><strong>The publication is available <a href="./papers/igarss_SARIONO.pdf">here</a> and the video presenting my work
+<a href="./videos/igarss2020_mainvis.mp4">here</a>.</strong></p>
 <!-- Navigate over blog items being pages or posts as the case may be -->
 <!-- Requires navigate-in-category.rb -->
 
@@ -57,7 +71,7 @@ layer.</p>
 </div>
     </main><footer>
     <div><a class="media" href="mailto:aymeric.mainvis@onera.fr">Email</a>|<a class="media" href="https://github.com/amainvis">GitHub</a>|<a class="media" href="https://www.researchgate.net/profile/Aymeric_Mainvis">ResearchGate</a>|<a class="media" href="https://www.linkedin.com/in/mainvis">Linkedin</a>
-            <br/><p>&copy; 2020 Aymeric Mainvis | Powered by <a href="https://jekyllrb.com/">Jekyll</a> using the <a href="https://github.com/jonathanlilly/ghostly">Ghostly</a> theme</p>
+            <br/><p>&copy; 2021 Aymeric Mainvis | Powered by <a href="https://jekyllrb.com/">Jekyll</a> using the <a href="https://github.com/jonathanlilly/ghostly">Ghostly</a> theme</p>
     </div>
 </footer>
 <script>
