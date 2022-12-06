@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-01-31T18:51:05+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">a. mainvis</title><subtitle>The research website of Aymeric Mainvis.</subtitle><author><name>Aymeric Mainvis</name></author><entry><title type="html">Detection and Characterization of Ionospheric Activity at High Latitude from SAR Measurements</title><link href="http://localhost:4000/homepage/2021/01/31/SARiono.html" rel="alternate" type="text/html" title="Detection and Characterization of Ionospheric Activity at High Latitude from SAR Measurements" /><published>2021-01-31T00:00:00+01:00</published><updated>2021-01-31T00:00:00+01:00</updated><id>http://localhost:4000/homepage/2021/01/31/SARiono</id><content type="html" xml:base="http://localhost:4000/homepage/2021/01/31/SARiono.html">&lt;p class=&quot;centered&quot;&gt;&lt;img src=&quot;./images/quiver_faraday_map.png&quot; width=&quot;500&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-12-06T22:36:07+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">a. mainvis</title><subtitle>The research website of Aymeric Mainvis.</subtitle><author><name>Aymeric Mainvis</name></author><entry><title type="html">Detection and Characterization of Ionospheric Activity at High Latitude from SAR Measurements</title><link href="http://localhost:4000/homepage/2021/01/31/SARiono.html" rel="alternate" type="text/html" title="Detection and Characterization of Ionospheric Activity at High Latitude from SAR Measurements" /><published>2021-01-31T00:00:00+02:00</published><updated>2021-01-31T00:00:00+02:00</updated><id>http://localhost:4000/homepage/2021/01/31/SARiono</id><content type="html" xml:base="http://localhost:4000/homepage/2021/01/31/SARiono.html"><![CDATA[<p class="centered"><img src="./images/quiver_faraday_map.png" width="500" /></p>
 
-&lt;p class=&quot;centered&quot;&gt;&lt;span style=&quot;color:grey&quot;&gt; &lt;em&gt;Faraday Rotation map superimposed on total power image, VV polarization. The white line indicates
+<p class="centered"><span style="color:grey"> <em>Faraday Rotation map superimposed on total power image, VV polarization. The white line indicates
 the projected magnetic field. SAR image collected by
-&lt;a href=&quot;https://www.eorc.jaxa.jp/ALOS/en/about/palsar.htm&quot;&gt;ALOS PALSAR from JAXA&lt;/a&gt;&lt;/em&gt; &lt;/span&gt;&lt;/p&gt;
+<a href="https://www.eorc.jaxa.jp/ALOS/en/about/palsar.htm">ALOS PALSAR from JAXA</a></em> </span></p>
 
-&lt;p&gt;Low-frequency space-based SAR systems can be used for global surveillance. This mission is dedicated to the precise
+<p>Low-frequency space-based SAR systems can be used for global surveillance. This mission is dedicated to the precise
 observation of local changes due to global climate change. In particular, they can measure the evolution of terrestrial
 biomass in equatorial regions, and the decrease of ice fields in high latitude regions. However, it is well known that,
 at these lower frequencies (L-band or below), the radar signal is affected by propagation through the ionospheric layer.
@@ -16,21 +16,21 @@ may even prevent InSAR processing and change detection. Essentially, these distu
 polar cap and equatorial zones. More precisely, in the polar cap, ionospheric activity is more intense in the auroral
 oval. This location is an energy zone with a high electron density. For equatorial regions, the radar signal is
 frequently disturbed during the post-sunset periods because of electric fields resulting from the interaction of charged
-particles from the Sun, the geomagnetic field and the particle winds developed within the ionosphere.&lt;/p&gt;
+particles from the Sun, the geomagnetic field and the particle winds developed within the ionosphere.</p>
 
-&lt;p&gt;Recently, I worked on a methodology to detect and characterize the ionospheric activity thanks to spaceborne synthetic
+<p>Recently, I worked on a methodology to detect and characterize the ionospheric activity thanks to spaceborne synthetic
 aperture radar measurements. This strategy is based on the Faraday rotation estimation which leads to the Total Electron
-Content (TEC) quantification, and the ionospheric phase advance assessment.&lt;/p&gt;
+Content (TEC) quantification, and the ionospheric phase advance assessment.</p>
 
-&lt;p&gt;&lt;strong&gt;The publication is available &lt;a href=&quot;./papers/igarss_SARIONO.pdf&quot;&gt;here&lt;/a&gt; and the video presenting my work
-&lt;a href=&quot;./videos/igarss2020_mainvis.mp4&quot;&gt;here&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;</content><author><name>Aymeric Mainvis</name></author><summary type="html"></summary></entry><entry><title type="html">Monitoring Oil spill with SAR</title><link href="http://localhost:4000/blog/2020/04/13/SARoilspill.html" rel="alternate" type="text/html" title="Monitoring Oil spill with SAR" /><published>2020-04-13T00:00:00+02:00</published><updated>2020-04-13T00:00:00+02:00</updated><id>http://localhost:4000/blog/2020/04/13/SARoilspill</id><content type="html" xml:base="http://localhost:4000/blog/2020/04/13/SARoilspill.html">&lt;p class=&quot;centered&quot;&gt;&lt;img src=&quot;sethiX_nofo copie.png&quot; alt=&quot;SETHI&quot; /&gt;&lt;/p&gt;
+<p><strong>The publication is available <a href="./papers/igarss_SARIONO.pdf">here</a> and the video presenting my work
+<a href="./videos/igarss2020_mainvis.mp4">here</a>.</strong></p>]]></content><author><name>Aymeric Mainvis</name></author><category term="homepage" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Monitoring Oil spill with SAR</title><link href="http://localhost:4000/blog/2020/04/13/SARoilspill.html" rel="alternate" type="text/html" title="Monitoring Oil spill with SAR" /><published>2020-04-13T00:00:00+03:00</published><updated>2020-04-13T00:00:00+03:00</updated><id>http://localhost:4000/blog/2020/04/13/SARoilspill</id><content type="html" xml:base="http://localhost:4000/blog/2020/04/13/SARoilspill.html"><![CDATA[<p class="centered"><img src="/images/sethiX_nofo.png" alt="SETHI" /></p>
 
-&lt;p class=&quot;centered&quot;&gt;&lt;span style=&quot;color:grey&quot;&gt; &lt;em&gt;SAR image collected by SETHI from ONERA.
-&lt;a href=&quot;https://hal.archives-ouvertes.fr/hal-02409705/file/DOTA19187.1571908389_preprint.pdf&quot;&gt;ref&lt;/a&gt;&lt;/em&gt; &lt;/span&gt;&lt;/p&gt;
+<p class="centered"><span style="color:grey"> <em>SAR image collected by SETHI from ONERA.
+<a href="https://hal.archives-ouvertes.fr/hal-02409705/file/DOTA19187.1571908389_preprint.pdf">ref</a></em> </span></p>
 
-&lt;p&gt;Space and airborne remote sensing systems are the main means of maritime surveillance. They are operated by
+<p>Space and airborne remote sensing systems are the main means of maritime surveillance. They are operated by
 governments or companies and are responsible for detecting oil slicks at sea. This mission remains crucial in order to
 best manage environmental accidents. Currently, Synthetic Aperture Radar (SAR) is the main way to carry out this
 mission as it provides a 24/7 service and is unaffected by weather conditions. In such a context, polarimetric data and
 multi-frequency acquisitions are crucial as they allow rapid and reliable detection and characterization of the oil
-layer.&lt;/p&gt;</content><author><name>Aymeric Mainvis</name></author><summary type="html"></summary></entry></feed>
+layer.</p>]]></content><author><name>Aymeric Mainvis</name></author><category term="blog" /><summary type="html"><![CDATA[]]></summary></entry></feed>
